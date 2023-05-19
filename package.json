@@ -1,0 +1,26 @@
+{
+  "name": "examenautomation---melli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristianOK/MELLI---Examen-Automation.git"
+  },
+  "author": "CRISTIAN HERRERA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cristianOK/MELLI---Examen-Automation/issues"
+  },
+  "homepage": "https://github.com/cristianOK/MELLI---Examen-Automation#readme",
+  "dependencies": {
+    "cypress": "^12.12.0",
+    "cypress-plugin-api": "^2.11.1"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.5.0"
+  }
+}
