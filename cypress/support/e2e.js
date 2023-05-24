@@ -14,7 +14,7 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
-import './CUSTOMS_COMMANDS/MELLI_Commands'
+import './Folder_Commands/MELLI_Commands'
 import 'cypress-mochawesome-reporter/register';
 import 'cypress-plugin-api';
 
