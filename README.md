@@ -12,15 +12,16 @@
 
 NOTA: Este modelo de EXAMEN AUTOMATION de MELLI ese de aproximadamente 3 años atras y algunas funcionabilidades cambiaron y/o ya no existen.
 Por ese motivo en el Ejercicio 1 Front End de Navegabilidad elegi 5 categorias diferentes al azar.
-* 'NAVEGABILIDAD: Categorías > Tecnologia > Celulares&Smarphones.
+* 'NAVEGABILIDAD: Categorías > Supermercado > Almacen.
 * 'NAVEGABILIDAD: Categorías > ELECTRODOMESTICOS > CALEFACCION'
 * 'NAVEGABILIDAD: Categorías > Hojar y Muebles > Jardin'
 *' NAVEGABILIDAD: Categorías > Herramientas > Manuales '
 * 'NAVEGABILIDAD: Categorías >Deportes y Fitness > Ropa Deportiva'
 
 
-Para el Ejercicio 2 elegi la navegabilidad ' CATEGORIA > JUEGOS Y JUGUETES > EDAD MENOS DE 24 MESES '.
-Seleccione para el TEST el juego con el nombre : 'Juego de mesa Monky loco Ditoys 071';
+Para el Ejercicio 2 elegi la navegabilidad: ' ELECTRODOMESTICOS > CALEFACCION'
+
+Seleccione para el TEST el producto con el nombre : "Calefactor eléctrico Magiclick C1007"
 
 ----------------------------------------------------------------------------------------------
 
