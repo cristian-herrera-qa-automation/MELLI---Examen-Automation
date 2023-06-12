@@ -10,3 +10,23 @@ jobs:
       - uses: cypress-io/github-action@v5
         with:
           browser: chrome
+
+  FIREFOX:
+    runs-on: ubuntu-20.04
+    # let's make sure our tests pass on Chrome browser
+    name: 'E2E CON FIREFOX'
+    steps:
+      - uses: actions/checkout@v3
+      - uses: cypress-io/github-action@v5
+        with:
+         browser: firefox
+        
+  EDGE:
+    runs-on: ubuntu-20.04
+    # let's make sure our tests pass on Chrome browser
+    name: 'E2E CON MICROSOFT EDGE'
+    steps:
+      - uses: actions/checkout@v3
+      - uses: cypress-io/github-action@v5
+        with:
+          browser: edge   
