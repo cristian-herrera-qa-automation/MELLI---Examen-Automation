@@ -1,9 +1,9 @@
 export class PDP_Product{
     // ELEMENTS //
        Card_Class= '.mr-32';
-       title_product = "Calefactor eléctrico Magiclick C1007";
-       price_product = "5599 pesos";
-       path_PDP_product= '/calefactor-electrico-magiclick-c1007';
+       title_product = "Calefactor eléctrico Eiffel E-501";
+       price_product = "5149 pesos";
+       path_PDP_product= '/calefactor-electrico-eiffel-e-501';
 
      // FUNCTIONS // METHODS // 
 

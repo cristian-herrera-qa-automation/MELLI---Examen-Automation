@@ -33,7 +33,6 @@ describe('Ejercicio 1 - Automatización de Front End - NAVEGABILIDAD MELLI !! ',
 });
 
 
-
 describe('EJERCICIO 2 - ELEGIR UNA CATEGORIA -FILTRAR POR UBICACION Y VERIFICAR DATOS !! ', () => {
     const elementos_PLP = new PLP_Product();
     const elementos_PDP= new PDP_Product();  
