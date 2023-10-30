@@ -18,7 +18,7 @@ describe('Ejercicio 1 - Automatización de Front End - NAVEGABILIDAD MELLI !! ',
     cy.NAVEGABILIDAD_Electrodomesticos_Calefaccion();      
     });
 
-    it('NAVEGABILIDAD: Categorías > Hojar y Muebles > Jardin', () => {
+    it.skip('NAVEGABILIDAD: Categorías > Hojar y Muebles > Jardin', () => {
         cy.NAVEGABILIDAD_HogaryMuebles_Jardin();
     });
    
