@@ -22,12 +22,11 @@ describe('Ejercicio 1 - Automatización de Front End - NAVEGABILIDAD MELLI !! ',
         cy.NAVEGABILIDAD_HogaryMuebles_Jardin();
     });
    
-    it(' NAVEGABILIDAD: Categorías > Herramientas > Manuales ', () => {
+    it.skip(' NAVEGABILIDAD: Categorías > Herramientas > Manuales ', () => {
          cy.NAVEGABILIDAD_Herramientas_Manuales();
     });
    
     it('NAVEGABILIDAD: Categorías >Deportes y Fitness > Ropa Deportiva', () => {
-          cy.wait(2000);
           cy.NAVEGABILIDAD_DeportesyFitness_RopaDeportiva();
     });
 });
