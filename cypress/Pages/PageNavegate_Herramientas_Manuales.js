@@ -7,6 +7,6 @@ export class Navegacion_Herramientas_Manuales{
 
     Mouse_Over_Category(){return cy.contains(this.Category_MouseOver)};
     Herramientas(){return cy.contains(this.Herramientas_txt)};
-    Card_Manuales(){return cy.get(this.alt_manuales,{timeout:1000})}
+    Card_Manuales(){return cy.get(this.alt_manuales,{timeout:3000})}
     Title_Herramientas_Manuales(){return cy.get(this.Class_Title_Seccion_Herramientas_Manuales,{timeout:2000}).contains(this.Txt_Title)};
 };
