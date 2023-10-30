@@ -8,6 +8,6 @@ export class Navegacion_DeportesyFitness_RopaDeportiva{
 
     Mouse_Over_Category(){return cy.contains(this.Category_MouseOver)};
     DeportesFitness(){return cy.contains(this.Deportes_Fitness_txt)};
-    Caroulse_RopaDeportiva(){return cy.get(this.Class_Carousel_RopaDeportiva).contains(this.Txt_Carousel_RDeportiva);}
-    Title_RopaDeportiva(){return cy.get(this.Class_Title_Seccion_RopaDeportiva).contains(this.Txt_Title)};
+    Caroulse_RopaDeportiva(){return cy.get(this.Class_Carousel_RopaDeportiva,{timeout:1000}).contains(this.Txt_Carousel_RDeportiva);}
+    Title_RopaDeportiva(){return cy.get(this.Class_Title_Seccion_RopaDeportiva,{timeout:2000}).contains(this.Txt_Title)};
 };

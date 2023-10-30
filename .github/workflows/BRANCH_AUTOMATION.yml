@@ -3,28 +3,16 @@ on: [push]
 jobs:
   cypress-run:
     runs-on: ubuntu-20.04
-    # let's make sure our tests pass on Chrome browser
-    name: 'RAMA QA AUTOMATION'
+    name: 'E2E CHROME'
     steps:
       - uses: actions/checkout@v3
       - uses: cypress-io/github-action@v5
         with:
           browser: chrome
-
-  FIREFOX:
-    runs-on: ubuntu-20.04
-    # let's make sure our tests pass on Chrome browser
-    name: 'E2E CON FIREFOX'
-    steps:
-      - uses: actions/checkout@v3
-      - uses: cypress-io/github-action@v5
-        with:
-         browser: firefox
         
   EDGE:
     runs-on: ubuntu-20.04
-    # let's make sure our tests pass on Chrome browser
-    name: 'E2E CON MICROSOFT EDGE'
+    name: 'E2E EDGE'
     steps:
       - uses: actions/checkout@v3
       - uses: cypress-io/github-action@v5

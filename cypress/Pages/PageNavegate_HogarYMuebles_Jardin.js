@@ -8,6 +8,6 @@ export class Navegacion_HogaryMuebles_Jardin{
 
     Mouse_Over_Category(){return cy.contains(this.Category_MouseOver)};
     Hogar_Muebles(){return cy.contains(this.HogaryMuebles_txt)};
-    Jardin_Card(){return cy.get(this.Class_Card_Jardin).contains(this.Txt_Card_Jardin);}
-    Title_Jardin_AireLibre(){return cy.get(this.Class_Title_Seccion_Jardin).contains(this.Txt_Title)};
+    Jardin_Card(){return cy.get(this.Class_Card_Jardin,{timeout:1000}).contains(this.Txt_Card_Jardin);}
+    Title_Jardin_AireLibre(){return cy.get(this.Class_Title_Seccion_Jardin,{timeout:2000}).contains(this.Txt_Title)};
 };

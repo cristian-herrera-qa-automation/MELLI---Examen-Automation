@@ -8,8 +8,8 @@ export class Navegacion_Supermercados_Almacen{
           
          Mouse_Over_Category(){return cy.contains(this.Category_MouseOver)};
          Supermercado_Category(){return cy.contains(this.Supermercado_Categoria)};
-         Almacen_Session(){return cy.get(this.Class_Carousel_Almacen).contains(this.Txt_Class_Carousel_Almacen)};
-         Title_Almacen_Supermercado(){return cy.get(this.Class_Title_Almacen).contains(this.Txt_Title)};
+         Almacen_Session(){return cy.get(this.Class_Carousel_Almacen,{timeout:2000}).contains(this.Txt_Class_Carousel_Almacen)};
+         Title_Almacen_Supermercado(){return cy.get(this.Class_Title_Almacen,{timeout:2000}).contains(this.Txt_Title)};
 
 };
 

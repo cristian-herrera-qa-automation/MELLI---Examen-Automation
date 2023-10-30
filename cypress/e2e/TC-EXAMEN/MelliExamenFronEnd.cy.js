@@ -39,30 +39,22 @@ describe('EJERCICIO 2 - ELEGIR UNA CATEGORIA -FILTRAR POR UBICACION Y VERIFICAR 
 
     before (" Acceder el home page- Filtrar por Ubicacion- Verificar en el datos PLP",()=>{
     cy.VISIT_BASEURL_MELLI("https://www.mercadolibre.com.ar");
-    cy.clearAllCookies();
     cy.NAVEGABILIDAD_Electrodomesticos_Calefaccion();
     elementos_PLP.Filter_Ubicacion().click();
-    cy.wait(2000)
-    elementos_PLP.Title_And_Price_Verification().siblings(()=>{
-        elementos_PLP.Price_Calefactor().should("exist");
+    elementos_PLP.first_product().siblings(()=>{
+            elementos_PLP.first_title().should("be.visible")
+            elementos_PLP.firts_price().should("be.visible");
     });
-    elementos_PLP.Acceder_PDP().click({force:true});
+    elementos_PLP.first_title().first().click({force:true});
    });
 
     it('Verificar que los datos coincidan en el PDP del producto', () => {
-        cy.wait(3000);
-        elementos_PDP.Path_Product_PDP();
-        elementos_PDP.Verification_PDP().siblings(()=>{
-            elementos_PDP.Title().should("exist");
-            elementos_PDP.Price().should("exist");
+        elementos_PDP.title_pdp().should("exist");
+        elementos_PDP.price_pdp().should("exist");
+        elementos_PDP.img_pdp().should("exist");
+    });
 
-    });
-    });
-    });
+});
 
 //NOTA: PLP : 'PRODUCT LIST PAGE' (PAGE LISTA DE PRODUCTOS)
-// PDP : 'PRODUCT DETAILS PAGE' (PAGE DETALLES DEL PRODUCTO)
-// PRODUCTO ELEGIDO :"Caloventor eléctrico Liliana CFH400 negro 220V-240V"   
-
-
-
+// PDP : 'PRODUCT DETAILS PAGE' (PAGE DETALLES DEL PRODUCTO)   
